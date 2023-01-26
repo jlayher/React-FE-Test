@@ -9,15 +9,15 @@ const App = () => {
     <div className='App'>
       <div className="gradient__bg">
         <Navbar />
-        <Header />
+        {/* <Header /> */}
       </div>
-      <Brand />
+      {/* <Brand />
       <WhatGPT3 />
       <Features />
       <Possibility />
       <CTA />
       <Blog />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
