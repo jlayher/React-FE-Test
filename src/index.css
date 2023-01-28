@@ -5,6 +5,7 @@
 font, 
 colors,
 gradients */
+/* Look into this CSS Syntax */
 :root {
   --font-family: 'Manrope', sans-serif;
 
