@@ -23,18 +23,21 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* container for top */
 .gpt3__whatgpt3-feature {
     display: flex;
 }
 
-/* how are these selecting?  is this for targetting nested classes? Why not just target the class itself? */
+/* container top and specifies descendant */
 .gpt3__whatgpt3-feature .gpt3__features-container__feature {
     margin: 0;
 }
 
-/* .gpt3__whatgpt3-feature .gpt3__features-container__feature-text {
+
+/* on or off?  Maybe adjust to 500px? */
+.gpt3__whatgpt3-feature .gpt3__features-container__feature-text {
     max-width: 700px;
-} */
+}
 
 .gpt3__whatgpt3-heading {
     display: flex;
@@ -63,6 +66,7 @@
     cursor: pointer;
 } 
 
+/* Container for the feature components at the bottom of GPT3 */
 .gpt3__whatgpt3-container {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +75,7 @@
     margin-top: 2rem;
 }
 
-/* Customizing feature component as per needs */
+/* First selector gets the container for the 3 features at bottom.  Second  */
 .gpt3__whatgpt3-container .gpt3__features-container__feature {
     flex: 1;
     margin: 1rem;
