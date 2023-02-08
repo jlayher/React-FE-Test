@@ -1,6 +1,6 @@
 {
     "homepage": "http://jlayher.github.io/React-GPT3-FE",
-    "name": "basic-react-1",
+    "name": "react-gpt3-fe",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
