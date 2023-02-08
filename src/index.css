@@ -1,11 +1,6 @@
-/* import the font */
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-/* seems like we are establishing variables here that will be used throughout the app
-font, 
-colors,
-gradients */
-/* Look into this CSS Syntax */
 :root {
   --font-family: 'Manrope', sans-serif;
 
